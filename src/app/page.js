@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Home() {
 
   return (
-    <div className='md:flex m-4 items-center  '>
+    <div className='md:flex m-4 items-center my-16  '>
       <div className='flex-1 flex-col flex justify-center m-auto'>
         <h1 className='text-7xl p-6  text-wrap'>
           This is NextJS Demo app.
@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </div>
       <div className='flex-1'>
-        <div className='w-80 h-80 md:w-[800px] md:h-[800px] rounded-lg relative m-auto'>
+        <div className='w-80 h-80 md:w-[700px] md:h-[700px] rounded-lg relative m-auto'>
           <Image src="/hero.gif" fill />
         </div>
       </div>
